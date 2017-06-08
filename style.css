@@ -1,0 +1,440 @@
+font-family: 'PT Mono', monospace;
+font-family: 'Inconsolata', monospace;
+body{
+	background-color: black;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	color: black;
+}
+
+.name{
+	position: fixed;
+	left: 2%;
+	top: 6%;
+	height: 15%;
+	width: 15%;
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 2vw;
+	line-height: 0.9;
+	text-align: center;
+}
+
+.info{
+	position: absolute;
+	right: 2%;
+	top: 7%;
+	height: 15%;
+	width: 15%;
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 1.5vw;
+	line-height: 0.9;
+	text-align: center;
+}
+
+.subtitle{
+	font-size: 1vw;
+}
+
+.subtitle2{
+	font-size: 1vw;
+}
+
+/*.altbar{
+	position: fixed;
+	left: 3%;
+	top: 22%;
+	height: 70%;
+	width: 16%;
+	background-color: red;
+	font-family: 'Inconsolata', monospace;
+	font-size: 2vw;
+	text-align: left;
+	z-index: 10;
+	display: none;
+}*/
+
+.sidebar{
+	position: fixed;
+	left: 3%;
+	top: 22%;
+	height: 70%;
+	width: 16%;
+	background-color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 2vw;
+	text-align: left;
+	background-color: white;
+}
+
+/*.sidebar:hover + .altbar{
+	display: block;
+}*/
+
+.embed-container { position: relative; margin-top: 2%;padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+.noetext{
+	position: absolute;
+	margin-left:40%;
+	width:40%;
+	top: 5%;
+	color: white;
+	font-family: 'PT Mono', monospace;
+
+}
+
+#noe{
+	width: 20%;
+	height: 20%;
+	margin-left: 22%;
+	margin-top: 10%;
+	-webkit-transition: width 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.3s;
+		z-index: 0;
+}
+
+.sidenoe{
+	position: fixed;
+	left: 3%;
+	top: 22%;
+	height: 70%;
+	width: 16%;
+	background-color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 2vw;
+	text-align: left;
+	z-index: 10;
+	display: none;
+
+}
+
+#noe:hover{
+	width:22%;
+	z-index: 50;
+	-webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+#noe:hover + .sidenoe{
+	display: block;
+}
+
+#noedetail{
+	position: absolute;
+	background-color: white;
+	top: 0;
+	left: 22%;
+	bottom: 0;
+	right: 0;
+	width: 78%;
+	height: 140%;
+	z-index: 100;
+
+}
+
+#noedetail:hover + .sidenoe{
+	display: block;
+}
+
+.noepic{
+	margin-top: 10%;
+	margin-left: 20%;
+	width: 50%;
+
+}
+
+#lost{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	top: 15%;
+	margin-left: 47%;
+	margin-top: 5%;
+	-webkit-transition: width 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.3s;
+		z-index: 0;
+}
+
+.sidelost{
+	position: fixed;
+	left: 3%;
+	top: 22%;
+	height: 70%;
+	width: 16%;
+	background-color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 2vw;
+	text-align: left;
+	z-index: 10;
+	display: none;
+}
+
+#lost:hover{
+	width:22%;
+	z-index: 50;
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+}
+
+#lost:hover + .sidelost{
+	display: block;
+}
+
+#lostdetail{
+	position: fixed;
+	overflow: hidden;
+	background-color: white;
+	top: 0;
+	left: 30;
+	bottom: 0;
+	right: 0;
+	padding: 5%;
+	width: 70%;
+	height:200%;
+	z-index: 100;
+}
+
+#lostdetail:hover + .sidelost{
+	display: block;
+}
+
+#secret{
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 15%;
+	margin-left: 52%;
+	margin-top: 20%;
+	-webkit-transition: width 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.3s;
+		z-index: 0;
+
+}
+
+.sidesecret{
+	position: fixed;
+	left: 3%;
+	top: 22%;
+	height: 100%;
+	width: 16%;
+	background-color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 2vw;
+	text-align: left;
+	z-index: 10;
+	display: none;
+}
+
+#secret:hover{
+	width:45%;
+	z-index: 50;
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+}
+
+#secret:hover + .sidesecret{
+	display: block;
+}
+
+
+#secretdetail{
+	position: absolute;
+	background-color: white;
+	top: 0;
+	left: 20;
+	bottom: 0;
+	right: 0;
+	width: 80%;
+	height: 200%;
+	z-index: 100;
+}
+
+#secretdetail:hover + .sidesecret{
+	display: block;
+}
+
+.secretpic{
+	margin-top: 5%;
+	margin-left: 3.5%;
+	width: 40%;
+}
+
+.secretpic:hover + .sidesecret{
+	display: block;
+}
+
+.secretpic2{
+	margin-top: 5%;
+	margin-left: 4%;
+	width: 40%;
+}
+
+.secretpic2:hover + .sidesecret{
+	display: block;
+}
+
+.secretpic3{
+	margin-top: 5%;
+	margin-left: 4%;
+	width: 40%;
+}
+
+.secretpic3:hover + .sidesecret{
+	display: block;
+}
+
+.secretpic4{
+	margin-top: 5%;
+	margin-left: 4%;
+	width: 40%;
+}
+
+.secretpic4:hover + .sidesecret{
+	display: block;
+}
+
+#diamond{
+	position: absolute;
+	width: 25%;
+	/*height: 20%;*/
+	top: 30%;
+	margin-left: 22%;
+	margin-top: 30%;
+	-webkit-transition: width 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.3s;
+		z-index: 0;
+}
+
+.sidediamond{
+	position: fixed;
+	left: 3%;
+	top: 22%;
+	height: 100%;
+	width: 16%;
+	background-color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 2vw;
+	text-align: left;
+	z-index: 10;
+	display: none;
+
+}
+
+#diamond:hover{
+	width:28%;
+	z-index: 50;
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+}
+
+#diamond:hover + .sidediamond{
+	display: block;
+}
+
+#diamonddetail{
+	position: absolute;
+	background-color: white;
+	top: 0;
+	left: 30;
+	bottom: 0;
+	right: 0;
+	padding: 5%;
+	width: 70%;
+	height:200%;
+	z-index: 100;
+}
+
+#diamonddetail:hover + .sidediamond{
+	display: block;
+}
+
+#c4d{
+	width: 22%;
+	height: 20%;
+	margin-left: 25.5%;
+	margin-top: 25%;
+	-webkit-transition: width 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.3s;
+		z-index: 0;
+		padding-bottom: 10%;
+}
+
+.sidec4d{
+	position: fixed;
+	left: 3%;
+	top: 22%;
+	height: 70%;
+	width: 16%;
+	background-color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 2vw;
+	text-align: left;
+	z-index: 10;
+	display: none;
+
+}
+
+#c4d:hover{
+	width:25%;
+	z-index: 50;
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+}
+
+#c4d:hover + .sidec4d{
+	display: block;
+}
+
+#c4ddetail{
+	position: absolute;
+	background-color: white;
+	top: 0;
+	left: 20;
+	bottom: 0;
+	right: 0;
+	width: 80%;
+	height: 200%;
+	z-index: 100;
+}
+
+#c4ddetail:hover + .sidec4d{
+	display: block;
+}
+
+.c4dpic{
+	margin-top: 10%;
+	margin-left: 3.5%;
+	width: 28%;
+
+}
+
+.c4dpic:hover + .sidec4d{
+	display: block;
+}
+
+.c4dpic2{
+	margin-top: 12%;
+	margin-left: 4%;
+	width: 28%;
+
+}
+
+.c4dpic2:hover + .sidec4d{
+	display: block;
+}
+
+.c4dpic3{
+	margin-top: 10%;
+	margin-left: 4%;
+	width: 28%;
+
+}
+
+.c4dpic3:hover + .sidec4d{
+	display: block;
+}
