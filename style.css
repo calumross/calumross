@@ -12,6 +12,27 @@ a{
 	color: black;
 }
 
+.close{
+	position: absolute;
+	right: 6%;
+	top: 6%;
+	width: 2%;
+}
+
+.close2{
+	position: absolute;
+	right: 3%;
+	top: 3%;
+	width: 2%;
+}
+
+.close3{
+	position: absolute;
+	right: 5%;
+	top: 3%;
+	width: 2%;
+}
+
 .name{
 	position: fixed;
 	left: 2%;
@@ -260,7 +281,7 @@ a{
 
 .secretpic{
 	margin-top: 5%;
-	margin-left: 3.5%;
+	margin-left: 4%;
 	width: 40%;
 }
 
